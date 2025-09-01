@@ -126,7 +126,7 @@ export default function MemberPortalPage() {
                 </Button>
               </div>
               <div className="mt-4 text-center text-sm text-muted-foreground">
-                Don't have an account?{" "}
+                Don’t have an account?{" "}
                 <Button variant="link" className="p-0 h-auto text-red-600">
                   Contact us to get started
                 </Button>
@@ -436,3 +436,4 @@ export default function MemberPortalPage() {
     </div>
   )
 }
+

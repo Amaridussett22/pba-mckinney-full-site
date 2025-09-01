@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import Link from "next/link"
@@ -100,7 +100,7 @@ export function HeroSection() {
               transition={{ delay: 0.2, duration: 0.6 }}
             >
               <Badge variant="secondary" className="mb-4 text-sm px-4 py-2 bg-gradient-to-r from-red-100 to-blue-100 text-red-800 border-red-200">
-                🥋 Premier Martial Arts Training Since 1982
+                ðŸ¥‹ Premier Martial Arts Training Since 1982
               </Badge>
             </motion.div>
 
@@ -298,3 +298,4 @@ export function HeroSection() {
     </section>
   )
 }
+

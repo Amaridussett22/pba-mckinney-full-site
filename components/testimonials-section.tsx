@@ -29,7 +29,7 @@ const testimonials = [
     id: 3,
     name: "Nicole B",
     role: "Parent",
-    content: "We absolutely love this place! Every single person here is compassionate, motivating and a positive influence for these students. They're always available to answer questions and are always looking for creative ways to keep students engaged.",
+    content: "We absolutely love this place! Every single person here is compassionate, motivating and a positive influence for these students. They’re always available to answer questions and are always looking for creative ways to keep students engaged.",
     rating: 5,
     image: "/api/placeholder/60/60",
   },
@@ -74,13 +74,13 @@ export function TestimonialsSection() {
             Testimonials
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            What Our{" "}
+            What Our{&amp;quot; &amp;quot;}
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Families Say
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our amazing students and parents 
+            Don’t just take our word for it. Here’s what our amazing students and parents 
             have to say about their experience at Pro Black Belt Academy.
           </p>
         </motion.div>
@@ -109,7 +109,7 @@ export function TestimonialsSection() {
                   </div>
                   
                   <p className="text-muted-foreground mb-6 leading-relaxed">
-                    "{testimonial.content}"
+                    &amp;quot;{testimonial.content}&amp;quot;
                   </p>
                   
                   <div className="flex items-center">
@@ -159,3 +159,5 @@ export function TestimonialsSection() {
     </section>
   )
 }
+
+

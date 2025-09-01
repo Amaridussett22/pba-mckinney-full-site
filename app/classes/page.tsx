@@ -188,7 +188,7 @@ export default function ClassesPage() {
                       <Calendar className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
                       <h3 className="text-2xl font-bold mb-2">Family Day</h3>
                       <p className="text-muted-foreground">
-                        We're closed on Sundays to give our families time to rest and recharge. 
+                        We’re closed on Sundays to give our families time to rest and recharge. 
                         See you Monday!
                       </p>
                     </CardContent>
@@ -338,3 +338,4 @@ export default function ClassesPage() {
     </div>
   )
 }
+

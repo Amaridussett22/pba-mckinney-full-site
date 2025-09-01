@@ -73,7 +73,7 @@ export default function BookTrialPage() {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Experience the Pro Black Belt Academy difference with a complimentary trial class. 
-            No commitment required - just come and see what we're all about!
+            No commitment required - just come and see what we’re all about!
           </p>
         </motion.div>
 
@@ -278,7 +278,7 @@ export default function BookTrialPage() {
                         onCheckedChange={(checked) => setFormData({...formData, marketing: checked as boolean})}
                       />
                       <Label htmlFor="marketing" className="text-sm">
-                        I'd like to receive updates about classes and events
+                        I’d like to receive updates about classes and events
                       </Label>
                     </div>
                   </div>
@@ -392,3 +392,4 @@ export default function BookTrialPage() {
     </div>
   )
 }
+
