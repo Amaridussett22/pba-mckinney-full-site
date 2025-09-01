@@ -30,9 +30,9 @@ import {
 const blogPosts = [
   {
     id: 1,
-    title: "The Benefits of Martial Arts for Children's Development",
+    title: "The Benefits of Martial Arts for Children’s Development",
     excerpt: "Discover how martial arts training helps children build confidence, discipline, and social skills that benefit them throughout their lives.",
-    content: "Martial arts training offers numerous benefits for children's physical, mental, and emotional development...",
+    content: "Martial arts training offers numerous benefits for children’s physical, mental, and emotional development...",
     author: "Master Kim",
     authorImage: "/api/placeholder/40/40",
     date: "March 15, 2024",
@@ -98,9 +98,9 @@ const blogPosts = [
   },
   {
     id: 5,
-    title: "Adult Martial Arts: It's Never Too Late to Start",
+    title: "Adult Martial Arts: It’s Never Too Late to Start",
     excerpt: "Addressing common concerns and highlighting the unique benefits of beginning martial arts training as an adult.",
-    content: "Many adults hesitate to start martial arts, thinking they're too old or out of shape...",
+    content: "Many adults hesitate to start martial arts, thinking they’re too old or out of shape...",
     author: "Instructor Mike",
     authorImage: "/api/placeholder/40/40",
     date: "March 5, 2024",
@@ -470,3 +470,4 @@ export default function BlogPage() {
     </div>
   )
 }
+

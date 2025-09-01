@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import Link from "next/link"
@@ -50,7 +50,7 @@ export function Footer() {
                   Pro Black Belt Academy
                 </div>
                 <div className="text-sm text-red-300 italic">
-                  <span className="text-red-400">Little Elm</span> • <span className="text-blue-400">Est. 1982</span>
+                  <span className="text-red-400">Little Elm</span> â€¢ <span className="text-blue-400">Est. 1982</span>
                 </div>
               </div>
             </div>
@@ -225,7 +225,7 @@ export function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2025 Pro Black Belt Academy. All rights reserved.
+              Â© 2025 Pro Black Belt Academy. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy" className="text-gray-400 hover:text-red-400 transition-colors">
@@ -247,3 +247,4 @@ export function Footer() {
     </footer>
   )
 }
+

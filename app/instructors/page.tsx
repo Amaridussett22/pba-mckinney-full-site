@@ -342,7 +342,7 @@ export default function InstructorsPage() {
                 <h2 className="text-3xl font-bold mb-4">Our Teaching Philosophy</h2>
                 <p className="text-red-100 max-w-3xl mx-auto">
                   At Pro Black Belt Academy, we believe that martial arts is more than just physical training. 
-                  It's about developing character, building confidence, and creating leaders who make a positive 
+                  It’s about developing character, building confidence, and creating leaders who make a positive 
                   impact in their communities.
                 </p>
               </div>
@@ -408,3 +408,4 @@ export default function InstructorsPage() {
     </div>
   )
 }
+

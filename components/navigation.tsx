@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import Link from "next/link"
@@ -61,7 +61,7 @@ export function Navigation() {
                   Pro Black Belt Academy
                 </div>
                 <div className="text-xs text-muted-foreground italic">
-                  <span className="text-red-600">Little Elm</span> • <span className="text-blue-600">Est. 1982</span>
+                  <span className="text-red-600">Little Elm</span> â€¢ <span className="text-blue-600">Est. 1982</span>
                 </div>
               </div>
             </Link>
@@ -128,3 +128,4 @@ export function Navigation() {
     </header>
   )
 }
+
