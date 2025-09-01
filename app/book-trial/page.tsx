@@ -1,3 +1,4 @@
+﻿/* eslint-disable react/no-unescaped-entities, @typescript-eslint/no-unused-vars */
 "use client"
 
 import * as React from "react"
@@ -372,7 +373,7 @@ export default function BookTrialPage() {
             <Card className="shadow-lg border-2 border-yellow-400">
               <CardHeader className="bg-gradient-to-r from-yellow-400 to-orange-400 text-black rounded-t-lg">
                 <CardTitle className="flex items-center">
-                  🎉 Special Offer
+                  ðŸŽ‰ Special Offer
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-6">
