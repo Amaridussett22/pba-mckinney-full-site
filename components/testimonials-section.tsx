@@ -74,7 +74,7 @@ export function TestimonialsSection() {
             Testimonials
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            What Our{&amp;quot; &amp;quot;}
+            What Our”
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Families Say
             </span>
@@ -159,5 +159,6 @@ export function TestimonialsSection() {
     </section>
   )
 }
+
 
 
