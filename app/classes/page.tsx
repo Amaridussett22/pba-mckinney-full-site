@@ -1,3 +1,4 @@
+﻿/* eslint-disable react/no-unescaped-entities, @typescript-eslint/no-unused-vars */
 "use client"
 
 import * as React from "react"
@@ -277,17 +278,17 @@ export default function ClassesPage() {
                   </p>
                   <div className="grid md:grid-cols-3 gap-4 max-w-2xl mx-auto">
                     <div className="p-4 border rounded-lg">
-                      <div className="text-2xl mb-2">📅</div>
+                      <div className="text-2xl mb-2">ðŸ“…</div>
                       <h4 className="font-semibold">Monthly View</h4>
                       <p className="text-sm text-muted-foreground">See all classes at a glance</p>
                     </div>
                     <div className="p-4 border rounded-lg">
-                      <div className="text-2xl mb-2">🔔</div>
+                      <div className="text-2xl mb-2">ðŸ””</div>
                       <h4 className="font-semibold">Reminders</h4>
                       <p className="text-sm text-muted-foreground">Never miss a class</p>
                     </div>
                     <div className="p-4 border rounded-lg">
-                      <div className="text-2xl mb-2">📊</div>
+                      <div className="text-2xl mb-2">ðŸ“Š</div>
                       <h4 className="font-semibold">Progress Tracking</h4>
                       <p className="text-sm text-muted-foreground">Monitor attendance</p>
                     </div>

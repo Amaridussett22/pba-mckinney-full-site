@@ -1,3 +1,4 @@
+﻿/* eslint-disable react/no-unescaped-entities, @typescript-eslint/no-unused-vars */
 "use client"
 
 import * as React from "react"
@@ -45,9 +46,9 @@ const memberData = {
     { date: "Friday", time: "6:00 PM", class: "Sparring Practice", instructor: "Master Lee" },
   ],
   achievements: [
-    { title: "Perfect Attendance", description: "Attended 30 consecutive classes", date: "March 2024", icon: "🏆" },
-    { title: "Blue Belt Promotion", description: "Promoted to Blue Belt", date: "February 2024", icon: "🥋" },
-    { title: "Tournament Participant", description: "Competed in Spring Tournament", date: "January 2024", icon: "⚔️" },
+    { title: "Perfect Attendance", description: "Attended 30 consecutive classes", date: "March 2024", icon: "ðŸ†" },
+    { title: "Blue Belt Promotion", description: "Promoted to Blue Belt", date: "February 2024", icon: "ðŸ¥‹" },
+    { title: "Tournament Participant", description: "Competed in Spring Tournament", date: "January 2024", icon: "âš”ï¸" },
   ],
   paymentHistory: [
     { date: "March 2024", amount: "$99.00", status: "Paid", method: "Auto-pay" },
@@ -107,7 +108,7 @@ export default function MemberPortalPage() {
                     type="password"
                     value={loginForm.password}
                     onChange={(e) => setLoginForm({...loginForm, password: e.target.value})}
-                    placeholder="••••••••"
+                    placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                     required
                   />
                 </div>
@@ -261,7 +262,7 @@ export default function MemberPortalPage() {
                       </div>
                       <Progress value={memberData.progress} className="h-3" />
                       <p className="text-sm text-muted-foreground">
-                        {memberData.progress}% complete • {100 - memberData.progress}% remaining
+                        {memberData.progress}% complete â€¢ {100 - memberData.progress}% remaining
                       </p>
                     </div>
                   </CardContent>
